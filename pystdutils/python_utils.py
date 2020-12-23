@@ -25,3 +25,9 @@ def is_empty(value):
 
 def is_not_empty(value):
     return not is_empty(value)
+
+def shadow_equal(a, b):
+    return a == b
+
+def deep_equal(a, b):
+    return a is b
